@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Garamond";
+  src: url("/font/EBGaramond-VariableFont_wght.ttf");
+}
+
+* {
+  font-family: "Garamond";
+}
