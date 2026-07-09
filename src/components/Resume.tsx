@@ -155,6 +155,35 @@ export default function Resume() {
                   </li>
                 </ul>
               </div>
+              <div className="text-base">
+                <div className="flex items-center justify-between w-full font-semibold text-black">
+                  <span className="flex items-center gap-2">
+                    <span className="text-[10px]">❖</span>
+                    Frontend Developer Intern, Moonlight Creatives
+                  </span>
+                  <div className="grow border-neutral-400 mx-2 self-end mb-1"></div>
+                  <span className="shrink-0 text-neutral-800">
+                    May 2026 - Present
+                  </span>
+                </div>
+                <ul className="list-disc list-outside ml-6 mt-1.5 space-y-0.5 text-neutral-800 marker:text-black">
+                  <li>
+                    Developed a real-time chat application using Next.js, React,
+                    TypeScript, WebSockets, and REST APIs with a focus on
+                    responsive and scalable user experiences.
+                  </li>
+                  <li>
+                    Implemented real-time messaging, typing indicators,
+                    conversation updates, optimistic UI, and file attachment
+                    workflows while collaborating with backend services.
+                  </li>
+                  <li>
+                    Improved application performance and maintainability by
+                    debugging complex state synchronization issues, refactoring
+                    components, and optimizing frontend architecture.
+                  </li>
+                </ul>
+              </div>
             </div>
           </section>
 
@@ -199,31 +228,38 @@ export default function Resume() {
           <section className="mb-6">
             <SectionHeading sectionHeading="Projects" />
             <div className="space-y-5 px-1">
-              {/* Project 1 */}
               <div className="text-base">
                 <div className="flex items-center justify-between w-full font-semibold text-black">
                   <span className="flex items-center gap-2">
                     <span className="text-[10px]">❖</span>
-                    Smartphone Ecommerce Website
+                    <a href="https://github.com/maharjansujal/whatup">
+                      Whatup - Real-Time Chat Application (In Progress)
+                    </a>
                   </span>
                 </div>
+
                 <ul className="list-disc list-outside ml-6 mt-1.5 space-y-0.5 text-neutral-800 marker:text-black">
                   <li>
-                    Architected a server-side application using Java Servlets
-                    and JSP for backend logic, integrated with a clean HTML/CSS
-                    frontend.
+                    Developing a full-stack real-time messaging platform using
+                    React.js, TypeScript, Express.js, PostgreSQL, and
+                    WebSockets.
                   </li>
                   <li>
-                    Engineered core ecommerce functionalities including dynamic
-                    content generation and secure user request handling.
+                    Implementing one-to-one and group conversations, typing
+                    indicators, optimistic UI updates, file attachments,
+                    authentication, and live online presence.
                   </li>
                   <li>
-                    Designed a straightforward, intuitive interface to
-                    streamline the browsing and checkout process for users.
+                    Utilizing TanStack Query, Socket.IO, and Cloudinary to
+                    deliver efficient state management, real-time
+                    synchronization, and media storage.
+                  </li>
+                  <li>
+                    Designing a scalable backend architecture with JWT
+                    authentication and relational database modeling
                   </li>
                 </ul>
               </div>
-              {/* Project 2 */}
               <div className="text-base">
                 <div className="flex items-center justify-between w-full font-semibold text-black">
                   <span className="flex items-center gap-2">
@@ -246,30 +282,6 @@ export default function Resume() {
                   </li>
                 </ul>
               </div>
-              {/* Project 3 */}
-              <div className="text-base">
-                <div className="flex items-center justify-between w-full font-semibold text-black">
-                  <span className="flex items-center gap-2">
-                    <span className="text-[10px]">❖</span>
-                    Jyaasa Creatives
-                  </span>
-                </div>
-                <ul className="list-disc list-outside ml-6 mt-1.5 space-y-0.5 text-neutral-800 marker:text-black">
-                  <li>
-                    Created a desktop application using Electron.js and React to
-                    manage and organize student records.
-                  </li>
-                  <li>
-                    Integrated SQLite for local data persistence, allowing for
-                    efficient storing, editing, and retrieving of records.
-                  </li>
-                  <li>
-                    Optimized the internal dashboard for administrative ease of
-                    use and data accuracy.
-                  </li>
-                </ul>
-              </div>
-              {/* Project 4: Stock Center */}
               <div className="text-base">
                 <div className="flex items-center justify-between w-full font-semibold text-black">
                   <span className="flex items-center gap-2">
@@ -300,6 +312,51 @@ export default function Resume() {
                   </li>
                 </ul>
               </div>
+              <div className="text-base">
+                <div className="flex items-center justify-between w-full font-semibold text-black">
+                  <span className="flex items-center gap-2">
+                    <span className="text-[10px]">❖</span>
+                    Jyaasa Creatives
+                  </span>
+                </div>
+                <ul className="list-disc list-outside ml-6 mt-1.5 space-y-0.5 text-neutral-800 marker:text-black">
+                  <li>
+                    Created a desktop application using Electron.js and React to
+                    manage and organize student records.
+                  </li>
+                  <li>
+                    Integrated SQLite for local data persistence, allowing for
+                    efficient storing, editing, and retrieving of records.
+                  </li>
+                  <li>
+                    Optimized the internal dashboard for administrative ease of
+                    use and data accuracy.
+                  </li>
+                </ul>
+              </div>
+              <div className="text-base">
+                <div className="flex items-center justify-between w-full font-semibold text-black">
+                  <span className="flex items-center gap-2">
+                    <span className="text-[10px]">❖</span>
+                    Smartphone Ecommerce Website
+                  </span>
+                </div>
+                <ul className="list-disc list-outside ml-6 mt-1.5 space-y-0.5 text-neutral-800 marker:text-black">
+                  <li>
+                    Architected a server-side application using Java Servlets
+                    and JSP for backend logic, integrated with a clean HTML/CSS
+                    frontend.
+                  </li>
+                  <li>
+                    Engineered core ecommerce functionalities including dynamic
+                    content generation and secure user request handling.
+                  </li>
+                  <li>
+                    Designed a straightforward, intuitive interface to
+                    streamline the browsing and checkout process for users.
+                  </li>
+                </ul>
+              </div>
             </div>
           </section>
 
@@ -315,38 +372,38 @@ export default function Resume() {
                 </h3>
                 <ul className="space-y-1 ml-1 list-disc list-inside marker:text-black">
                   <li>React & Next.js</li>
-                  <li>TypeScript</li>
-                  <li>JavaScript (ES6+)</li>
+                  <li>TypeScript & JavaScript (ES6+)</li>
                   <li>Tailwind CSS</li>
-                  <li>Responsive Web Design</li>
+                  <li>TanStack Query</li>
+                  <li>Responsive UI Development</li>
                 </ul>
               </div>
 
               {/* Column 2 */}
               <div className="p-3 border-r border-neutral-300 print:border-r">
                 <h3 className="font-bold text-center uppercase mb-2 text-neutral-900">
-                  Development Workflow
+                  Backend & APIs
                 </h3>
                 <ul className="space-y-1 ml-1 list-disc list-inside marker:text-black">
-                  <li>Git & GitHub</li>
-                  <li>REST API Integration</li>
-                  <li>Postman</li>
-                  <li>Debugging & Troubleshooting</li>
-                  <li>Technical Documentation</li>
+                  <li>Node.js & Express.js</li>
+                  <li>REST API Development</li>
+                  <li>JWT Authentication</li>
+                  <li>Socket.IO (WebSockets)</li>
+                  <li>Cloudinary Integration</li>
                 </ul>
               </div>
 
               {/* Column 3 */}
               <div className="p-3">
                 <h3 className="font-bold text-center uppercase mb-2 text-neutral-900">
-                  Database & Backend
+                  Databases & Workflow
                 </h3>
                 <ul className="space-y-1 ml-1 list-disc list-inside marker:text-black">
-                  <li>PostgreSQL</li>
-                  <li>MongoDB</li>
-                  <li>SQLite</li>
-                  <li>Authentication Workflows</li>
-                  <li>Client-Server Communication</li>
+                  <li>PostgreSQL & SQLite</li>
+                  <li>Git & GitHub</li>
+                  <li>Postman</li>
+                  <li>Debugging & Troubleshooting</li>
+                  <li>Technical Documentation</li>
                 </ul>
               </div>
             </div>
