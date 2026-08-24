@@ -233,7 +233,7 @@ export default function Resume() {
                   <span className="flex items-center gap-2">
                     <span className="text-[10px]">❖</span>
                     <a href="https://github.com/maharjansujal/whatup">
-                      Whatup - Real-Time Chat Application (In Progress)
+                      Whatup - Real-Time Chat Application
                     </a>
                   </span>
                 </div>
@@ -287,7 +287,7 @@ export default function Resume() {
                   <span className="flex items-center gap-2">
                     <span className="text-[10px]">❖</span>
                     <a href="https://github.com/maharjansujal/stock-center">
-                      Stock Center - Inventory Management System (In Progress)
+                      Stock Center - Inventory Management System
                     </a>
                   </span>
                 </div>
