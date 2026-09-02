@@ -8,3 +8,60 @@
 * {
   font-family: "Garamond";
 }
+
+/* -------------------------
+   A4 PRINT SETTINGS
+-------------------------- */
+
+@page {
+  size: A4;
+  margin: 12mm 10mm;
+}
+
+@media print {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background: white;
+  }
+
+  /* Hide anything that shouldn't appear in the PDF */
+  .print\:hidden {
+    display: none !important;
+  }
+
+  /* Let the resume flow naturally across A4 pages */
+  .resume {
+    width: 100% !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+    box-shadow: none !important;
+  }
+
+  /* Don't split individual resume items */
+  .job,
+  .project,
+  .education-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Keep headings with the content following them */
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+}
+
+@media print {
+  .education-section,
+  .skills-section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

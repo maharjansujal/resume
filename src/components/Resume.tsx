@@ -22,8 +22,7 @@ export default function Resume() {
         className="mx-auto bg-white shadow-lg print:shadow-none"
         style={{
           width: "210mm",
-          minHeight: "297mm",
-          padding: "15mm",
+          padding: "5mm",
         }}
       >
         {/* Page Container optimized for A4 Dimensions */}
@@ -74,7 +73,7 @@ export default function Resume() {
             <SectionHeading sectionHeading="Experience" />
             <div className="space-y-5 px-1">
               {/* Job 1: Frontend Intern */}
-              <div className="text-base">
+              <div className="text-base job">
                 <div className="flex items-center justify-between w-full font-semibold text-black">
                   <span className="flex items-center gap-2">
                     <span className="text-[10px]">❖</span>
@@ -98,7 +97,7 @@ export default function Resume() {
                 </ul>
               </div>
               {/* Job 2: Documentation Officer */}
-              <div className="text-base">
+              <div className="text-base job">
                 <div className="flex items-center justify-between w-full font-semibold text-black">
                   <span className="flex items-center gap-2">
                     <span className="text-[10px]">❖</span>
@@ -127,7 +126,7 @@ export default function Resume() {
                 </ul>
               </div>
               {/* Job 3: Next.js Developer */}
-              <div className="text-base">
+              <div className="text-base job">
                 <div className="flex items-center justify-between w-full font-semibold text-black">
                   <span className="flex items-center gap-2">
                     <span className="text-[10px]">❖</span>
@@ -188,12 +187,12 @@ export default function Resume() {
           </section>
 
           {/* EDUCATION SECTION */}
-          <section className="mb-6">
+          <section className="mb-6 education-section">
             <SectionHeading sectionHeading="Education" />
 
             <div className="space-y-4 px-1">
               {/* Education 1 */}
-              <div>
+              <div className="education-item">
                 <div className="flex items-center justify-between w-full text-base font-bold text-black">
                   <span className="flex items-center gap-2">
                     <span className="text-[10px]">❖</span>
@@ -208,7 +207,7 @@ export default function Resume() {
                 </div>
               </div>
               {/* Education 2 */}
-              <div>
+              <div className="education-item">
                 <div className="flex items-center justify-between w-full text-base font-bold text-black">
                   <span className="flex items-center gap-2">
                     <span className="text-[10px]">❖</span>
@@ -228,7 +227,7 @@ export default function Resume() {
           <section className="mb-6">
             <SectionHeading sectionHeading="Projects" />
             <div className="space-y-5 px-1">
-              <div className="text-base">
+              <div className="text-base project">
                 <div className="flex items-center justify-between w-full font-semibold text-black">
                   <span className="flex items-center gap-2">
                     <span className="text-[10px]">❖</span>
@@ -282,7 +281,7 @@ export default function Resume() {
                   </li>
                 </ul>
               </div>
-              <div className="text-base">
+              <div className="text-base project">
                 <div className="flex items-center justify-between w-full font-semibold text-black">
                   <span className="flex items-center gap-2">
                     <span className="text-[10px]">❖</span>
@@ -312,7 +311,7 @@ export default function Resume() {
                   </li>
                 </ul>
               </div>
-              <div className="text-base">
+              <div className="text-base project">
                 <div className="flex items-center justify-between w-full font-semibold text-black">
                   <span className="flex items-center gap-2">
                     <span className="text-[10px]">❖</span>
@@ -334,7 +333,7 @@ export default function Resume() {
                   </li>
                 </ul>
               </div>
-              <div className="text-base">
+              <div className="text-base project">
                 <div className="flex items-center justify-between w-full font-semibold text-black">
                   <span className="flex items-center gap-2">
                     <span className="text-[10px]">❖</span>
@@ -361,7 +360,7 @@ export default function Resume() {
           </section>
 
           {/* SKILLS SECTION (Three Column Grid) */}
-          <section className="mb-2 page-break-inside-avoid">
+          <section className="mb-2 page-break-inside-avoid skills-section">
             <SectionHeading sectionHeading="Technical Skills & Workflow Proficiencies" />
 
             <div className="grid grid-cols-3 border-t border-black text-sm text-neutral-950">
