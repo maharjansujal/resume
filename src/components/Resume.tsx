@@ -162,7 +162,7 @@ export default function Resume() {
                   </span>
                   <div className="grow border-neutral-400 mx-2 self-end mb-1"></div>
                   <span className="shrink-0 text-neutral-800">
-                    May 2026 - Present
+                    May 2026 - September 2026
                   </span>
                 </div>
                 <ul className="list-disc list-outside ml-6 mt-1.5 space-y-0.5 text-neutral-800 marker:text-black">
