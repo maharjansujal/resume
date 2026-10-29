@@ -239,22 +239,22 @@ export default function Resume() {
 
                 <ul className="list-disc list-outside ml-6 mt-1.5 space-y-0.5 text-neutral-800 marker:text-black">
                   <li>
-                    Developing a full-stack real-time messaging platform using
+                    Developed a full-stack real-time messaging platform using
                     React.js, TypeScript, Express.js, PostgreSQL, and
                     WebSockets.
                   </li>
                   <li>
-                    Implementing one-to-one and group conversations, typing
+                    Implemented one-to-one and group conversations, typing
                     indicators, optimistic UI updates, file attachments,
                     authentication, and live online presence.
                   </li>
                   <li>
-                    Utilizing TanStack Query, Socket.IO, and Cloudinary to
+                    Utilized TanStack Query, Socket.IO, and Cloudinary to
                     deliver efficient state management, real-time
                     synchronization, and media storage.
                   </li>
                   <li>
-                    Designing a scalable backend architecture with JWT
+                    Designed a scalable backend architecture with JWT
                     authentication and relational database modeling
                   </li>
                 </ul>
